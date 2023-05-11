@@ -1,1 +1,58 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Finance Basics</title>
+</head>
+<body>
+  <h1>Finance Basics</h1>
+  <p>This web app teaches you the basics of finance.</p>
+  <ul>
+    <li><a href="#chapter-1">Chapter 1: What is finance?</a></li>
+    <li><a href="#chapter-2">Chapter 2: The different types of financial instruments</a></li>
+    <li><a href="#chapter-3">Chapter 3: How to invest your money</a></li>
+    <li><a href="#chapter-4">Chapter 4: How to manage your finances</a></li>
+  </ul>
+  <section id="chapter-4">
+    <h2>Chapter 4: How to manage your finances</h2>
+    <p>There are many different things to consider when managing your finances. Some of the most important things include:</p>
+    <ul>
+      <li>Creating a budget</li>
+      <li>Paying your bills on time</li>
+      <li>Saving money for emergencies</li>
+      <li>Investing for the future</li>
+      <li>Protecting your assets</li>
+    </ul>
+    <p>Managing your finances can be challenging, but it is essential for financial security. There are many resources available to help you manage your finances, including financial advisors, books, and websites.</p>
+    <h3>Quiz</h3>
+    <p>How much do you know about managing your finances? Take this quiz to find out!</p>
+    <form action="/quiz/submit" method="post">
+      <input type="hidden" name="question_id" value="1">
+      <h4>Question 1</h4>
+      <p>What is the first step in creating a budget?</p>
+      <ul>
+        <li><input type="radio" name="answer" value="1"> Track your spending</li>
+        <li><input type="radio" name="answer" value="2"> Set financial goals</li>
+        <li><input type="radio" name="answer" value="3"> Create a list of income and expenses</li>
+        <li><input type="radio" name="answer" value="4"> None of the above</li>
+      </ul>
+      <h4>Question 2</h4>
+      <p>What is the best way to pay off debt?</p>
+      <ul>
+        <li><input type="radio" name="answer" value="1"> Pay off the smallest debts first</li>
+        <li><input type="radio" name="answer" value="2"> Pay off the debts with the highest interest rates first</li>
+        <li><input type="radio" name="answer" value="3"> Pay off the debts with the lowest interest rates first</li>
+        <li><input type="radio" name="answer" value="4"> None of the above</li>
+      </ul>
+      <h4>Question 3</h4>
+      <p>What is the best way to save money for emergencies?</p>
+      <ul>
+        <li><input type="radio" name="answer" value="1"> Open a savings account</li>
+        <li><input type="radio" name="answer" value="2"> Invest in stocks</li>
+        <li><input type="radio" name="answer" value="3"> Put money under your mattress</li>
+        <li><input type="radio" name="answer" value="4"> None of the above</li>
+      </ul>
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+</body>
+</html>
